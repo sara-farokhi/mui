@@ -11,14 +11,11 @@ const MuiButton = () => {
   const [format, setFormat] = useState<string[]>(['bold'])
   const changeFormat = (event: React.MouseEvent<HTMLElement>, updateFormat: string[]) => {
     setFormat(updateFormat)
-    console.log(format)
   }
 
   const [singleFormat, setSingleFormat] = useState<string | null>(null)
   const changeSingleFormat = (event: React.MouseEvent<HTMLElement>, updateSingleFormat: string | null) => {
-    setSingleFormat (updateSingleFormat)
-    console.log(singleFormat)
-
+    setSingleFormat(updateSingleFormat)
   }
 
   return (
