@@ -1,6 +1,7 @@
 import { Box } from '@mui/material'
 import { red } from '@mui/material/colors';
 
+//  This Component support system properties
 
 const MuiBox = () => {
     // const color = grey[500];
