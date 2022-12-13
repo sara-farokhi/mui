@@ -8,13 +8,12 @@ const MuiDrawer = () => {
             <IconButton onClick={() => setOpenDrawer(true)}>
                 <MenuIcon />
             </IconButton>
-         
+
             <Drawer open={openDrower} anchor="left" onClose={() => setOpenDrawer(false)}>
                 <Box p={6}>
                     <Typography>This is Drawer</Typography>
                 </Box>
             </Drawer>
-
         </Box>
     )
 }
