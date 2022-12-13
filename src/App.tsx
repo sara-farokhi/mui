@@ -11,10 +11,8 @@ import './App.css';
 // import MuiAutoComplete from "./components/MuiAutoComplete"
 // import MuiBox from "./components/MuiBox"
 // import MuiStack from "./components/MuiStack"
-import MuiGrid from "./components/MuiGrid"
-
-
-
+// import MuiGridCardPaper from "./components/MuiGridCardPaper"
+import MuiAccordion from "./components/MuiAccordion"
 
 function App() {
   return (
@@ -26,7 +24,7 @@ function App() {
       {/* {<MuiCheckBox />} */}
       {/* {<MuiRating />} */}
       {/* {<MuiStack />} */}
-      {<MuiGrid />}
+      {<MuiAccordion />}
     </div>
   );
 }
