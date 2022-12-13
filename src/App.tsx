@@ -14,10 +14,8 @@ import './App.css';
 // import MuiGridCardPaper from "./components/MuiGridCardPaper"
 // import MuiAccordion from "./components/MuiAccordion"
 // import MuiImageList from "./components/MuiImageList"
-import MuiNavBar from "./components/MuiNavBar"
-
-
-
+// import MuiNavBar from "./components/MuiNavBar"
+import MuiLink from "./components/MuiLink"
 
 
 function App() {
@@ -32,7 +30,9 @@ function App() {
       {/* {<MuiStack />} */}
       {/* {<MuiAccordion />} */}
       {/* {<MuiImageList />} */}
-      {<MuiNavBar />}
+      {/* {<MuiNavBar />} */}
+      {<MuiLink />}
+
 
     </div>
   );
