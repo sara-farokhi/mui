@@ -4,7 +4,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 
 const MuiAccordion = () => {
-    const [expand, setExpand] = useState<string | boolean>("panel1")
+    const [expand, setExpand] = useState<string | boolean>(false)
     const handleExpnd = (isExpand: boolean, panel: string) => {
         // console.log(isExpand, panel)
         setExpand(panel)

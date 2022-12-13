@@ -12,7 +12,10 @@ import './App.css';
 // import MuiBox from "./components/MuiBox"
 // import MuiStack from "./components/MuiStack"
 // import MuiGridCardPaper from "./components/MuiGridCardPaper"
-import MuiAccordion from "./components/MuiAccordion"
+// import MuiAccordion from "./components/MuiAccordion"
+import MuiImageList from "./components/MuiImageList"
+
+
 
 function App() {
   return (
@@ -24,7 +27,8 @@ function App() {
       {/* {<MuiCheckBox />} */}
       {/* {<MuiRating />} */}
       {/* {<MuiStack />} */}
-      {<MuiAccordion />}
+      {/* {<MuiAccordion />} */}
+      {<MuiImageList />}
     </div>
   );
 }
