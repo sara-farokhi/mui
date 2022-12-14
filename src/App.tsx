@@ -21,7 +21,10 @@ import './App.css';
 // import MuiMenu from "./components/MuiMenu"
 // import MuiSpeedDial from "./components/MuiSpeedDial"
 // import MuiBottomNavigation from "./components/MuiBottomNavigation"
-import MuiAvatar from "./components/MuiAvatar"
+// import MuiAvatar from "./components/MuiAvatar"
+import MuiBadge from "./components/MuiBadge"
+
+
 function App() {
   return (
     <div className="App">
@@ -40,7 +43,8 @@ function App() {
       {/* {<MuiMenu />} */}
       {/* {<MuiSpeedDial />} */}
       {/* {<MuiBottomNavigation />} */}
-      {<MuiAvatar />}
+      {/* {<MuiAvatar />} */}
+      {<MuiBadge />}
     </div>
   );
 }
