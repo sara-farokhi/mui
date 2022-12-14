@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 // import MuiTypography from "./components/MuiTypography"
 // import MuiButton from "./components/MuiButton"
@@ -27,7 +26,10 @@ import './App.css';
 // import MuiChips from "./components/MuiChips"
 // import MuiTooltip from "./components/MuiTooltip"
 // import MuiTable from "./components/MuiTable"
-import MuiAlert from "./components/MuiAlert"
+// import MuiAlert from "./components/MuiAlert"
+import MuiSnackbar from "./components/MuiSnackbar"
+
+
 
 function App() {
   return (
@@ -53,7 +55,8 @@ function App() {
       {/* {<MuiChips />} */}
       {/* {<MuiTooltip />} */}
       {/* {<MuiTable />} */}
-      {<MuiAlert />}
+      {/* {<MuiAlert />} */}
+      <MuiSnackbar />
 
     </div>
   );
