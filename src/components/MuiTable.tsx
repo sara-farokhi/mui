@@ -5,7 +5,8 @@ import {
     TableBody,
     TableRow,
     TableCell,
-    Container
+    Container,
+    Typography
 } from '@mui/material'
 
 const MuiTable = () => {
@@ -13,11 +14,11 @@ const MuiTable = () => {
         <Container sx={{ my: 5 }} >
             <TableContainer>
                 <Table>
-                    <TableHead >
+                    <TableHead  >
                         <TableRow>
-                            <TableCell>First Name</TableCell>
-                            <TableCell>Last Name</TableCell>
-                            <TableCell align='center'>Email</TableCell>
+                            <TableCell><Typography variant="h6">First Name</Typography></TableCell>
+                            <TableCell><Typography variant="h6">Last Name</Typography></TableCell>
+                            <TableCell align='center'><Typography variant="h6">Email</Typography></TableCell>
                         </TableRow>
                     </TableHead >
                     <TableBody >

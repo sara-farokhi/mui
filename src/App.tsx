@@ -26,8 +26,8 @@ import './App.css';
 // import MuiList from "./components/MuiList"
 // import MuiChips from "./components/MuiChips"
 // import MuiTooltip from "./components/MuiTooltip"
-import MuiTable from "./components/MuiTable"
-
+// import MuiTable from "./components/MuiTable"
+import MuiAlert from "./components/MuiAlert"
 
 function App() {
   return (
@@ -52,7 +52,9 @@ function App() {
       {/* {<MuiList />} */}
       {/* {<MuiChips />} */}
       {/* {<MuiTooltip />} */}
-      {<MuiTable />}
+      {/* {<MuiTable />} */}
+      {<MuiAlert />}
+
     </div>
   );
 }
